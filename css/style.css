@@ -1,0 +1,235 @@
+@media screen and (min-width: 1024px) {
+  .homepagina {
+    margin-top: 0.5rem; }
+  .homepagina .contenedor-padre {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    grid-template-areas: "header-home" 
+ "h1-home"     
+ "main-home"      
+ "footer-home";
+    /*footer index*/ }
+  .homepagina .contenedor-padre .header-homee {
+    grid-area: header-home;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .homepagina .contenedor-padre .header-homee .header-index {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .homepagina .contenedor-padre .header-homee .header-index .logo {
+    width: 30%;
+    padding-left: 2rem; }
+  .homepagina .contenedor-padre .header-homee .header-index nav .menu-index {
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-items: center;
+    margin-right: 5rem;
+    font-family: 'Permanent Marker';
+    list-style: none;
+    gap: 1rem; }
+  .homepagina .contenedor-padre .main-homee {
+    grid-area: main-home;
+    flex-direction: row-reverse;
+    align-items: start; }
+  .homepagina .contenedor-padre .main-homee .contenedor-imagen-index {
+    justify-self: start;
+    width: 50%;
+    height: 50%; }
+  .homepagina .contenedor-padre .main-homee .parrafo-index {
+    margin-bottom: 5rem; }
+  .homepagina .contenedor-padre .section-index {
+    grid-area: h1-home; }
+  .homepagina .contenedor-padre .section-index .titulo-index {
+    font-size: 1.5rem; }
+  .homepagina .contenedor-padre .footer-homee {
+    grid-area: footer-home; } }
+
+footer {
+  background-color: #080808;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  padding: 1rem;
+  gap: 1rem;
+  /*texto de footer*/
+  /*iconos del footer*/ }
+
+footer .footerfin {
+  color: rgba(202, 204, 136, 0.836);
+  font-size: 1.2rem; }
+
+footer .iconos-footer {
+  width: 1.5rem; }
+
+.historiaimg .main-historia, .historiaimg .main-historia .h1-historia, .historiaimg .main-historia .contenedor, .recitalesimg .contenedor-padre-recitales .main-reci, .videosimg .main-videos .videos-contenedor, .discografiaimg .contenedor-padre-discografia main .titulosdiscografia, .discografiaimg .contenedor-padre-discografia main .contdiscos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.historiaimg .main-historia .h1-historia, .historiaimg .main-historia .h1-historia .intengrantes, .historiaimg .main-historia .contenedor .parrafo-historia, .videosimg .main-videos .videos-contenedor .h1-videos, .videosimg .main-videos .videos-contenedor .h2-intro-videos, .videosimg .main-videos .videos-contenedor .h2-recital {
+  font-family: 'Shadows Into Light', cursive; }
+
+/* estilos header general*/
+header {
+  height: 80px;
+  padding: 10px;
+  background-color: rgba(130, 11, 11, 0.856);
+  position: sticky;
+  top: 0; }
+  header .header__logo {
+    font-family: 'Lobster', cursive;
+    color: rgba(245, 245, 245, 0.876);
+    font-size: 20px; }
+  header .header__link {
+    padding: 5px;
+    display: inline-block;
+    color: rgba(245, 245, 245, 0.876);
+    text-decoration: none;
+    font-family: fantasy; }
+
+/*estilos main index*/
+.mainindex {
+  background-color: rgba(152, 59, 59, 0.856);
+  height: 80%;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column; }
+  .mainindex .mainindex__presentacion {
+    height: 320px;
+    padding-top: 20px;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; }
+    .mainindex .mainindex__presentacion .mainindex__presentacion__titulo {
+      font-family: 'Lobster', cursive;
+      font-size: 70px;
+      color: antiquewhite; }
+    .mainindex .mainindex__presentacion .mainindex__presentacion__informacion {
+      text-align: center;
+      padding-top: 50px;
+      width: 500px;
+      color: rgba(245, 245, 245, 0.876);
+      font-size: 20px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .mainindex .mainindex__paginas {
+    display: grid;
+    gap: 5rem;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fill); }
+    .mainindex .mainindex__paginas .mainindex__atajo {
+      border: 2px solid white;
+      border-radius: 5px;
+      height: 400px;
+      width: 400px;
+      background-image: none;
+      color: rgba(245, 245, 245, 0.876); }
+      .mainindex .mainindex__paginas .mainindex__atajo .mainindex__img {
+        padding: 10px;
+        height: 80%;
+        width: 90%;
+        border-radius: 10px; }
+  .mainindex .matee {
+    margin-top: 60px;
+    padding: 10px; }
+
+.footer {
+  height: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(130, 11, 11, 0.856);
+  color: rgba(245, 245, 245, 0.876);
+  text-decoration: none; }
+
+  
+
+  /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+  /* estilo pagina sobre nosotros */
+
+/* estilos main sobre nosotros */
+
+.mainsobrenosotros{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,1fr);
+  gap: 20px  ;
+ 
+}
+
+.mainsobresonosotros__articulos {  
+  height: 300px;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+  color: rgba(245, 245, 245, 0.876);
+  border: 2px solid white;
+}
+
+.mainsobresonosotros__articulos p {
+  margin-top: 65px;
+}
+
+.seccionvideo{
+ display: flex;
+ justify-content: center;
+ margin-top: 50px;
+ margin-bottom: 50px;
+}
+
+/* estilos galeria */
+
+.galeriadefotos{
+  height: 2000px;
+  display: grid;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  gap: 10px   ;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+}
+
+.galeriadefotos__imagenes{
+
+}
+
+.galeriadefotos__imagenes img {
+  height: 400px;
+  width: 400px;
+}
+
+/* estilos contacto */
+
+.contacto{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.contacto__redes{
+  margin-top: 50px;
+  height: 600px;
+  width: 600px;
+  font-size: 40px;
+  padding: 20px;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.contacto__redes h2{
+  font-family: 'Lobster', cursive;
+  color: rgba(245, 245, 245, 0.876);
+}
