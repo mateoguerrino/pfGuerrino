@@ -1,3 +1,9 @@
 // Imports 
 @import"../scss/html/index";
+@import"base/variables";
+
+//estilo general body
+
+.body__general{background-color: $color-body}
+
 
